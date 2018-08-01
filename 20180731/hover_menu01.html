@@ -9,10 +9,33 @@
     *{margin:0;padding: 0;}
     a{text-decoration:none}
     ul,li{list-style:none}
-    a:link,a:visited{color:blank;}
+    a:link,a:visited{color:black;}
+
+    #container{width: 500px;margin: 0 auto;position: relative;}
+    #container li div{display:none;position: absolute;
+      width:500px;height:100px;background:skyblue;
+      padding:30px;box-sizing:border-box;
+      left:0;
+    }
+
+    #container>ul{}
+    #container>ul>li{float: left;}
+    #container>ul>li>a{
+      display: block;width: 100px;height: 25px;
+      line-height:25px;background:#ddd;text-align:center;
+    }
+    #container>ul>li>a:hover{background: #000;color:white;}
+
+    #container>div.view{width: 500px;height: 100px;padding:30px;background:gray;box-sizing:border-box;display:inline-block;}
+
+    #container li:nth-child(1):hover div{display:block;}
+    #container li:nth-child(2):hover div{display:block;}
+    #container li:nth-child(3):hover div{display:block;}
+    #container li:nth-child(4):hover div{display:block;}
+    #container li:nth-child(5):hover div{display:block;}
 
 
-   
+    
   </style>
 </head>
 <body>
