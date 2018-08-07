@@ -116,6 +116,9 @@ input:nth-of-type(2):checked ~ section.buttons>label:nth-of-type(2){
 	content:"";clear: both;
 	display: block;
 }
+
+/*.item>a{display: block;overflow: hidden;}*/
+
 .item div.thumbnail{float:left;}
 .item div.description{float:left;margin-left:10px;}
 .item div.description>strong{
